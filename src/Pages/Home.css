@@ -1,0 +1,96 @@
+.home-container {
+  padding: 40px 20px;
+}
+
+/* HERO */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.hero-left {
+  max-width: 500px;
+  margin-left: 200px;
+}
+
+.hero-left h1 {
+  font-size: 42px;
+  margin: 10px 0;
+}
+
+.hero-left span {
+  color: #7c3aed;
+}
+
+.hero-left h3 {
+  font-size: 18px;
+  color: #666;
+}
+
+.hero-left p {
+  font-size: 14px;
+  color: #555;
+}
+
+/* BUTTONS */
+.hero-buttons {
+  margin-top: 20px;
+}
+
+.btn-primary-custom {
+  background: #7c3aed;
+  color: white;
+  padding: 8px 18px;
+  border-radius: 6px;
+  margin-right: 10px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.btn-outline-custom {
+  border: 2px solid #7c3aed;
+  color: #7c3aed;
+  padding: 8px 18px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+/* IMAGE FIX */
+.hero-right img {
+  width: 210px;   /* 🔥 smaller */
+  height: 210px;
+  margin-right: 350px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* SKILLS */
+.skills {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  background: #f3f3f3;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.skill-box {
+  text-align: center;
+}
+
+.skill-box img {
+  width: 40px;   /* 🔥 smaller icons */
+  height: 40px;
+  margin-bottom: 8px;
+}
+
+.skill-box p {
+  font-size: 13px;
+  margin: 0;
+}
